@@ -1,15 +1,18 @@
 This program goes through your current directory, and gives you the option to rename either:
+
 1) A single file
+
 2) Multiple files with a pattern (i.e. file0, file1, file2, file3, file4...)
 
 General Requirements:
+___
 
 X based system (needs `LS`)
 Python 3
 
 
 General Use:
-
+___
 
 To run type: python3 renamer.py
 
