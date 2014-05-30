@@ -15,7 +15,7 @@ Python 3
 General Use:
 ___
 
-To run type: python3 renamer.py
+To run type: `python3 renamer.py`
 
   Single File (Choice 1):
     (At any time press 'Ctrl+C' to exit the program)
