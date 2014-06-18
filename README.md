@@ -22,7 +22,7 @@ ___
 To run type: `python3 renamer.py`
 
   Single File (Choice 1):
-    (At any time press `Ctrl+C` to exit the program)
+    (At any time press `Ctrl+C` or 'q'  when prompted is available to exit the program)
     
     Choose choice 1 (press `Enter`)
     
