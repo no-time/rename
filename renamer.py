@@ -52,14 +52,24 @@ def single2(ls_split):
     import subprocess
     from subprocess import call
     while True:
-        user_input=int(input\
+        user_input=(input\
     ("Which number would you like to rename? : "))
+        if user_input== "":
+            print("Enter a number")
+        if user_input != "":
+            break
+    while True:
         if int(user_input) <= (int(len(ls_split))-1):
             break
-    rename= input("What would you like to call the file? (press 'q' \
+    while True:
+        rename= input("What would you like to call the file? (press 'q' \
 to quit): ")
-    if rename == 'q':
-        os.sys.exit()
+        if rename == 'q':
+            os.sys.exit()
+        if rename == "":
+            print ("Please enter a value")
+        elif rename != "":
+            break
     extens= input("What file extension? (Type everything after '.'): ")
     if extens =="":
         rename= rename+str(extens)
